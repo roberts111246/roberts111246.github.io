@@ -1,0 +1,37 @@
+#title {
+    color: #5A79FF;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+#game {
+    background-color: black;
+    height: 50vh;
+    width: 50vw;
+    display: inline-block;
+}
+
+#wrapper {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#next {
+    background-color: #3BBD34;
+    border-radius: 5vh;
+    font-size: 2px;
+    display: inline-block;
+}
+
+#secret {
+    text-align: left;
+}
+
+html body {
+    border: 5px dotted #3BCC34;
+    background-color: #130085;
+    margin: auto 10px;
+    width: auto;
+    height: 100vh;
+}
+
