@@ -1,29 +1,37 @@
 #title {
+    color: #5A79FF;
     text-align: center;
-    background-color: white;
-    font-family: 'Merriweather', serif;
+    font-family: 'Lora', serif;
 }
-.sidebar {
-    z-index: 1;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 115px;
-    position: fixed;
-    background-color: #444444;
+
+#game {
+    background-color: black;
+    height: 50vh;
+    width: 50vw;
+    display: inline-block;
 }
-.sidebar a {
-    color: white;
-    padding-left: 5px;
-    font-size: 15px;
+
+#wrapper {
+    text-align: center;
+    padding-top: 15vh;
 }
-#sidebartitle {
-    font-family: 'Merriweather', serif;
-    color: #E4E4E4;
-    padding-left: 5px;
+
+#next {
+    background-color: #3BBD34;
+    border-radius: 5vh;
+    font-size: 2px;
+    display: inline-block;
 }
-.body {
-    padding-left: 125px;
-    font-size: 40px;
-    font-family: 'Lato', sans-serif;
+
+#secret {
+    text-align: left;
 }
+
+html body {
+    border: 5px dotted #3BCC34;
+    background-color: #130085;
+    margin: auto 10px;
+    width: auto;
+    height: 100vh;
+}
+
