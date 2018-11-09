@@ -1,0 +1,29 @@
+#title {
+    text-align: center;
+    background-color: white;
+    font-family: 'Merriweather', serif;
+}
+.sidebar {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 115px;
+    position: fixed;
+    background-color: #444444;
+}
+.sidebar a {
+    color: white;
+    padding-left: 5px;
+    font-size: 15px;
+}
+#sidebartitle {
+    font-family: 'Merriweather', serif;
+    color: #E4E4E4;
+    padding-left: 5px;
+}
+.body {
+    padding-left: 125px;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
