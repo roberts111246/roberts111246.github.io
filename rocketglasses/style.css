@@ -18,9 +18,13 @@
     background-color: dimgray;
     color: #F2ECF0;
     font-size: 20px;
-    height: 500px;
 }
 
 #infocol {
     border-right: 3px solid black;
+    height: 500px;
+}
+
+#rightinfocol {
+    height: 500px;
 }
