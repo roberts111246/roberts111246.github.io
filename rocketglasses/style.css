@@ -1,0 +1,25 @@
+.jumbotron {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+#productimg {
+    width: 750px;
+    height: 330px;
+    padding-top: 25px;
+}
+
+#info {
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+    background-color: dimgray;
+    color: #F2ECF0;
+}
+
+#infocol {
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
