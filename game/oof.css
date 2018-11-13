@@ -16,7 +16,7 @@
 
 @keyframes oof {
     0% {color: red; padding-top: 0px}
-    50% {color: #660000; padding-top: 1000px;}
+    50% {color: #660000; padding-top: 750px;}
     100% {color: red; padding-top: 0px}
 }
 
