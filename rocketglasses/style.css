@@ -1,5 +1,12 @@
+html body {
+    background-color: #E0E0E0;
+    margin: auto 10px;
+    width: auto;
+    height: 100vh;
+}
+
 .jumbotron {
-    background-color: white;
+    background-color: #E0E0E0;
     margin: auto;
     text-align: center;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
@@ -21,9 +28,9 @@
 
 #infocol {
     border-right: 3px solid black;
-    height: 500px;
+    height: 40vh;
 }
 
 #rightinfocol {
-    height: 500px;
+    height: 40vh;
 }
