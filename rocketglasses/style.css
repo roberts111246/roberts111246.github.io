@@ -24,7 +24,7 @@ html body {
     font-size: 20px;
 }
 
-#infocol {
+.infocol {
     border: 5px solid #E0E0E0;
     height: 37vh;
     background-color: dimgray;
@@ -33,7 +33,7 @@ html body {
     align-items: center;
 }
 
-#infocol:hover {
+.infocol:hover {
     background-color: #858FE0;
 }
 
