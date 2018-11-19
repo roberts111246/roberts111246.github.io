@@ -12,8 +12,8 @@ html body {
 }
 
 #productimg {
-    width: 750px;
-    height: 330px;
+    max-width: 100%;
+    height: auto;
     padding-top: 25px;
 }
 
@@ -21,7 +21,7 @@ html body {
     text-align: center;
     font-family: 'KoHo', sans-serif;
     color: #F2ECF0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .infocol {
