@@ -36,9 +36,12 @@ html body {
 .infocol:hover {
     background-color: #858FE0;
 }
-
-/* #rightinfocol {
-    border: 5px solid #E0E0E0;
-    height: 40vh;
-    background-color: dimgray;
-} */
+.activeinfocol {
+    position: absolute;
+    border: hidden;
+    height: 55vh;
+    width: 50vw;
+    right: 25%;
+    z-index: 1;
+    align-items: baseline;
+}
