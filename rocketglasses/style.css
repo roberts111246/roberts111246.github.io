@@ -36,12 +36,32 @@ html body {
 .infocol:hover {
     background-color: #858FE0;
 }
+
+.infotxt {
+    display: none;
+}
+
 .activeinfocol {
-    position: absolute;
-    border: hidden;
     height: 55vh;
     width: 50vw;
+    top: 25%;
     right: 25%;
-    z-index: 1;
+    z-index: 2;
     align-items: baseline;
+    position: absolute;
+    border: hidden;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
 }
