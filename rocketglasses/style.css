@@ -39,6 +39,19 @@ html body {
 
 .infotxt {
     display: none;
+    font-size: 23px;
+}
+
+.infocolexit {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.infohead {
+    display: inline-block;
+    margin: 0 19vw 0 21vw;
 }
 
 .activeinfocol {
@@ -50,6 +63,12 @@ html body {
     align-items: baseline;
     position: absolute;
     border: hidden;
+    text-align: center;
+    background-color: dimgray;
+}
+
+.activeinfocol:hover {
+    background-color: dimgray;
 }
 
 #overlay {
