@@ -46,7 +46,9 @@ html body {
     height: 15px;
     width: 15px;
     margin-bottom: 20px;
-    display: inline-block;
+    top: 0;
+    right: 0;
+    position: fixed;
 }
 
 .infohead {
