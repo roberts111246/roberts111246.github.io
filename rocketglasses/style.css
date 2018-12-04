@@ -1,7 +1,7 @@
 html body {
     background-color: #E0E0E0;
-    width: auto;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .jumbotron {
@@ -48,7 +48,9 @@ html body {
     margin-bottom: 20px;
     top: 0;
     right: 0;
+    z-index: 2;
     position: fixed;
+    display: none;
 }
 
 .infohead {
@@ -71,6 +73,38 @@ html body {
 
 .activeinfocol:hover {
     background-color: dimgray;
+}
+
+#topbar ul{
+    background-color: dimgray;
+    margin: 0;
+    padding: 0;
+}
+#topbar li{
+    display: inline;
+    float: left;
+    color: white;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+}
+
+#topbar a {
+    color: white;
+    display: block;
+    padding: 0px 5px;
+}
+
+#topbar a:hover {
+    background-color: #858FE0;
+}
+
+#topbar {
+    position: fixed;
+    background-color: dimgray;
+    width: 100%;
+    height: 3vh;
+    margin: 0;
+    padding: 0;
 }
 
 #overlay {
