@@ -22,13 +22,16 @@ html body {
     font-family: 'KoHo', sans-serif;
     color: #F2ECF0;
     font-size: 18px;
+    width: 100%;
+    margin-left: 0px;
 }
 
 .infocol {
     border: 5px solid #E0E0E0;
-    height: 37vh;
+    height: 42vh;
     background-color: dimgray;
     display: flex;
+    position: static;
     justify-content: center; 
     align-items: center;
 }
@@ -55,14 +58,13 @@ html body {
 
 .infohead {
     display: inline-block;
-    margin: 0 19vw 0 21vw;
 }
 
 .activeinfocol {
     height: 55vh;
     width: 50vw;
-    top: 25%;
-    right: 25%;
+    bottom: 25%;
+    left: 25%;
     z-index: 2;
     align-items: baseline;
     position: absolute;
