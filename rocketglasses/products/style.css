@@ -39,6 +39,32 @@ html body {
     padding: 0;
 }
 
+.products li {
+    list-style-type: none;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    background-color: #D1D1D1;
+    border: 5px solid black;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.products ul {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+.products {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#robotimg {
+    max-width: auto;
+}
+
 .jumbotron {
     background-color: #E0E0E0;
     margin: auto;
