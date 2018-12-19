@@ -5,8 +5,8 @@ function main() {
         $('.infocol').hide();
         $(this).addClass('activeinfocol');
         $(this).removeClass('infocol');
-        $(this).show(); //only shows infocol, can't do anything else
-        $('.infocolexit').show();
+        $(this).fadeIn(); //button only shows infocol,can't hide
+        $('.infocolexit').fadeIn();
     });
     
     $('.infocolexit').click(function() {
@@ -14,7 +14,7 @@ function main() {
         $('.infocol').show();
         $('.activeinfocol').addClass('infocol');
         $('.activeinfocol').removeClass('activeinfocol');
-        $('.infocolexit').hide();
+        $('.infocolexit').fadeOut();
     });
     
 }
