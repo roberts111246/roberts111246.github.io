@@ -1,0 +1,28 @@
+#wrapper {
+    text-align: center;
+    padding-top: 15vh;
+}
+
+#ooftext {
+    font-size: 150px;
+    font-family: 'Source Code Pro', monospace;
+    animation: oof 0.0001s infinite;
+    color: red;
+}
+
+#oofimg {
+    animation: oof 0.0001s infinite;
+}
+
+@keyframes oof {
+    0% {color: red; padding-top: 0px}
+    50% {color: #660000; padding-top: 20px;}
+    100% {color: red; padding-top: 0px}
+}
+
+html body {
+    background-color: #000000;
+    margin: auto 10px;
+    width: auto;
+    height: 100vh;
+}
