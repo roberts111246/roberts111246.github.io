@@ -1,0 +1,35 @@
+#topbar ul{
+    background-color: dimgray;
+    margin: 0;
+    padding: 0;
+}
+
+#topbar li{
+    display: inline;
+    float: left;
+    color: white;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 3vh;
+}
+
+#topbar a {
+    color: white;
+    display: block;
+    padding: 0px 5px;
+}
+
+#topbar a:hover {
+    background-color: #858FE0;
+}
+
+#topbar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: dimgray;
+    width: 100%;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+}
+ 
