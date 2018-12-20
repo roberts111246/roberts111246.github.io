@@ -77,11 +77,26 @@ html body {
     background-color: dimgray;
 }
 
+#overlay {
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    opacity: .4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+}
+
 #topbar ul{
     background-color: dimgray;
     margin: 0;
     padding: 0;
 }
+
 #topbar li{
     display: inline;
     float: left;
@@ -110,17 +125,4 @@ html body {
     margin: 0;
     padding: 0;
 }
-
-#overlay {
-    position: fixed;
-    display: none;
-    height: 100%;
-    width: 100%;
-    opacity: .4;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    background-color: black;
-}
+ 

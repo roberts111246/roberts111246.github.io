@@ -1,4 +1,6 @@
-function main() {
+$(function(){
+    
+    $("#topbar").load("topbar/index.html");
     
     $('.infocol').on('click', function() {
         $('.infotxt, #overlay').show(); 
@@ -17,6 +19,5 @@ function main() {
         $('.infocolexit').fadeOut();
     });
     
-}
+});
 
-$(document).ready(main);
