@@ -1,0 +1,59 @@
+html body {
+    background-color: #E0E0E0;
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
+    height: 500px;
+    margin-top: 5vh;
+    background-image: url("temp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: #E0E0E0;
+    max-height: 15vh;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+#topbar ul{
+    background-color: dimgray;
+    margin: 0;
+    padding: 0;
+}
+
+#topbar li{
+    display: inline;
+    float: left;
+    color: white;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 3vh;
+}
+
+#topbar a {
+    color: white;
+    display: block;
+    padding: 0px 5px;
+}
+
+#topbar a:hover {
+    background-color: #858FE0;
+}
+
+#topbar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: dimgray;
+    width: 100%;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+}
+ 
