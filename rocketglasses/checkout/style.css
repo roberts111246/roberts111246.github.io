@@ -49,6 +49,7 @@ html body {
 }
 
 .btn {  
+    margin-top: 25vh;
     vertical-align: middle;
     background-color: dimgray;
 }
