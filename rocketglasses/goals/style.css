@@ -5,21 +5,29 @@ html body {
 }
 
 #wrapper {
-    height: 500px;
+    height: 750px;
     margin-top: 5vh;
     background-image: url("temp.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    font-family: 'Text Me One', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+#wrapper p {
+    text-align: center;
+    padding-top: 20vh;
 }
 
 .jumbotron {
     background-color: #E0E0E0;
     max-height: 15vh;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     text-align: center;
-    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'KoHo', sans-serif;
 }
 
 #topbar ul{
