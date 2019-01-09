@@ -43,6 +43,7 @@ html body {
 .infotxt {
     display: none;
     font-size: 23px;
+    padding-left: 7px; 
 }
 
 .infocolexit {
@@ -69,7 +70,7 @@ html body {
     align-items: baseline;
     position: absolute;
     border: hidden;
-    text-align: center;
+    text-align: left;
     background-color: dimgray;
 }
 
